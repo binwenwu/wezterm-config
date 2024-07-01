@@ -261,4 +261,3 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</k
 - <https://github.com/catppuccin/wezterm>
 - <https://github.com/wez/wezterm/discussions/628#discussioncomment-1874614>
 - <https://github.com/wez/wezterm/discussions/628#discussioncomment-5942139>
-# wezterm-config

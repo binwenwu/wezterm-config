@@ -42,7 +42,7 @@ return {
       left = 5,
       right = 5,
       top = 10,
-      bottom = 5,
+      bottom = 7,
    },
    window_close_confirmation = 'NeverPrompt',
    window_frame = {

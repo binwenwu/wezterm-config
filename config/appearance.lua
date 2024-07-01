@@ -40,7 +40,7 @@ return {
    -- window
    window_padding = {
       left = 5,
-      right = 10,
+      right = 5,
       top = 10,
       bottom = 5,
    },

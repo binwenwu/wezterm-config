@@ -4,7 +4,7 @@ local platform = require('utils.platform')
 local font = 'CaskaydiaMono Nerd Font' 
 -- 默认：local font = 'JetBrainsMono Nerd Font'
 
-local font_size = platform().is_mac and 14 or 9
+local font_size = platform().is_mac and 14 or 11
 
 return {
    font = wezterm.font(font),

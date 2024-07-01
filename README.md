@@ -1,14 +1,14 @@
 <h2 align="center">My WezTerm Config</h2>
 
 <p align="center">
-  <a href="https://github.com/KevinSilvester/wezterm-config/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/KevinSilvester/wezterm-config?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41">
+  <a href="https://github.com/binwenwu/wezterm-config/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/binwenwu/wezterm-config?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41">
   </a>
-  <a href="https://github.com/KevinSilvester/wezterm-config/issues">
-    <img alt="Issues" src="https://img.shields.io/github/issues/KevinSilvester/wezterm-config?style=for-the-badge&logo=gitbook&color=B5E8E0&logoColor=D9E0EE&labelColor=302D41">
+  <a href="https://github.com/binwenwu/wezterm-config/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/binwenwu/wezterm-config?style=for-the-badge&logo=gitbook&color=B5E8E0&logoColor=D9E0EE&labelColor=302D41">
   </a>
-  <a href="https://github.com/KevinSilvester/wezterm-config/actions/workflows/lint.yml">
-    <img alt="Build" src="https://img.shields.io/github/actions/workflow/status/KevinSilvester/wezterm-config/lint.yml?&style=for-the-badge&logo=githubactions&label=CI&color=A6E3A1&logoColor=D9E0EE&labelColor=302D41">
+  <a href="https://github.com/binwenwu/wezterm-config/actions/workflows/lint.yml">
+    <img alt="Build" src="https://img.shields.io/github/actions/workflow/status/binwenwu/wezterm-config/lint.yml?&style=for-the-badge&logo=githubactions&label=CI&color=A6E3A1&logoColor=D9E0EE&labelColor=302D41">
   </a>
 </p>
 
@@ -18,15 +18,15 @@
 
 ### Features
 
-- [**Background Image Selector**](https://github.com/KevinSilvester/wezterm-config/blob/master/utils/backdrops.lua)
+- [**Background Image Selector**](https://github.com/binwenwu/wezterm-config/blob/main/utils/backdrops.lua)
 
   Uses `wezterm.read_dir` to scan the `backdrops` directory for images.
 
   > See: [key bindings](#background-images) for usage
 
-- [**GPU Adapter Selector**](https://github.com/KevinSilvester/wezterm-config/blob/master/utils/gpu_adapter.lua)
+- [**GPU Adapter Selector**](https://github.com/binwenwu/wezterm-config/blob/main/utils/gpu_adapter.lua)
 
-  > :bulb: Only works if the [`front_end`](https://github.com/KevinSilvester/wezterm-config/blob/master/config/appearance.lua#L8) option is set to `WebGpu`.
+  > :bulb: Only works if the [`front_end`](https://github.com/binwenwu/wezterm-config/blob/main/config/appearance.lua#L8) option is set to `WebGpu`.
 
   A small utility to select the best GPU + Adapter (graphics API) combo for your machine.
 
@@ -91,7 +91,7 @@
 
   1.  ```sh
       # On Windows and Unix systems
-      git clone https://github.com/KevinSilvester/wezterm-config.git ~/.config/wezterm
+      git clone https://github.com/binwenwu/wezterm-config.git ~/.config/wezterm
       ```
   2.  And Done!!! 🎉🎉
 

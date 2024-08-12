@@ -5,10 +5,10 @@ local platform = require('utils.platform')
 local font = 'CaskaydiaMono Nerd Font' 
 
 -- font size
-local font_size = platform().is_mac and 14 or 11
+local font_size = platform().is_mac and 18 or 11
 
 -- line height
-local line_height = platform().is_mac and 1.15 or 1.15
+local line_height = platform().is_mac and 1.20 or 1.15
 
 return {
    font = wezterm.font(font),

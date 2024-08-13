@@ -15,14 +15,14 @@ return {
    -- background
    background = {
       {
-         source = { File = wezterm.config_dir .. '/backdrops/astro-jelly.jpg' },
+         source = { File = wezterm.config_dir .. '/backdrops/mac-finder.jpg' },
          horizontal_align = 'Center',
       },
       {
          source = { Color = colors.background },
          height = '100%',
          width = '100%',
-         opacity = 1.00,
+         opacity = 0.5,
       },
    },
 

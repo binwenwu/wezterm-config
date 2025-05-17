@@ -15,14 +15,16 @@ return {
    -- background
    background = {
       {
-         source = { File = wezterm.config_dir .. '/backdrops/mac-finder.jpg' },
+         -- 背景图片  
+         source = { File = wezterm.config_dir .. '/backdrops/wallhaven-wep366.png' },
          horizontal_align = 'Center',
       },
       {
+         -- 背景参数
          source = { Color = colors.background },
          height = '100%',
          width = '100%',
-         opacity = 0.5,
+         opacity = 0.8,
       },
    },
 

@@ -12,7 +12,7 @@
   </a>
 </p>
 
-![screenshot](./.github/screenshots/wezterm.gif)
+![screenshot](https://cdn.jsdelivr.net/gh/binwenwu/picgo_02/img/20250517172518.png)
 
 ---
 
